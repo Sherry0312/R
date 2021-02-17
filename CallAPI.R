@@ -260,6 +260,6 @@ CleanDATA$OpenSunC<-gsub("小時營業","23:59",CleanDATA$OpenSunC)
 saveRDS(CleanDATA,"美食CleanDATA.rds")
 #合併所有hashtag的dataframe
 #AllDATA<-data.frame()
-AllDATA<-readRDS("C:/Users/Jacky/Documents/大四/下/網頁程式設計/期末程式/AllDATA.rds")
+AllDATA<-readRDS("C:/Users/Jacky/Documents/AllDATA.rds")
 AllDATA<-rbind(AllDATA,CleanDATA)
 saveRDS(AllDATA,"AllDATA.rds")

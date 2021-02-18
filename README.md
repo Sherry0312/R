@@ -16,3 +16,10 @@ According to each attraction name, we make an API to search in the Google and ge
 * DataCleaning.R
 
 Organize the data and apply our method to calculation popularity spot.
+
+
+### Instagramer's data visualization
+
+* AnalysisInstagramer.R
+
+Analysis Instagramer's post time and make a final graphs to show the post time related to the number of likes.
